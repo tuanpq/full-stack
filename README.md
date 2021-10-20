@@ -42,7 +42,7 @@
 ### Steps to run
 - pod install
 - Start application from Simulator.
-  - Use localhost as Server
+  - Use localhost as Server, change request URL in source code if needs
 
 ### Screenshots
 #### Product List
@@ -53,7 +53,7 @@
 
 ## Android
 ### Technical Stack
-- AFNetworking 1.0.2
+- Fast Android Networking 1.0.2
 - Glide 4.12.0
 - RecycleView 1.2.0
 - ViewPager2
@@ -61,7 +61,7 @@
 
 ### Steps to run
 - Start application from Emulator.
-  - Use localhost as Server
+  - Use localhost as Server, change request URL in source code if needs
 
 ### Screenshots
 #### Product List
