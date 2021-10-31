@@ -48,7 +48,7 @@ const ProductListScreen = ({navigation}) => {
   const getProducts = async () => {
     try {
       const response = await fetch(
-        'http://192.168.1.2:8080/api/products?page=0&size=6',
+        'http://localhost:8080/api/products?page=0&size=6',
       );
       const json = await response.json();
       setProducts(json.products);
